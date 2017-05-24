@@ -35,8 +35,14 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.getElementById("chili").classList.add('electricBugaloo');
-  document.getElementById("chili").style.display = "inline"; 
+  var chiliDiv = document.createElement("div");
+  chiliDiv.id = "chili";
+  document.body.appendChild(chiliDiv);
+  
+  var x = chiliDiv.clientHeight;
+  setTimeout(function() {
+    chiliDiv.className = "electricBugaloo";
+  }, 300);
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
