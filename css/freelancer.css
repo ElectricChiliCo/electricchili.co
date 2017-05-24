@@ -111,6 +111,7 @@ header .intro-text .skills {
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  justify-content: center;
 }
 .navbar-custom .navbar-brand {
   color: white;
