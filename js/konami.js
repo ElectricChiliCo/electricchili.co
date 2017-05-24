@@ -41,7 +41,7 @@ function activateCheats() {
   
   var x = chiliDiv.clientHeight;
   setTimeout(function() {
-    chiliDiv.className = "electricBugaloo";
+    chiliDiv.addClass('electricBugaloo');
   }, 300);
   
   var audio = new Audio('audio/pling.mp3');
