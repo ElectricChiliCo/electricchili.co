@@ -35,14 +35,14 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  chili.electricBugaloo {
+  #chili.electricBugaloo {
     top: 100%;
     left: 100%;
     -webkit-transform: rotate(2000deg);
     transform: rotate(2000deg);
   };
     
-  chili {
+  #chili {
     position: fixed;
     width: 100px;
     height: 100px;
