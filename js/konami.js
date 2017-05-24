@@ -36,6 +36,7 @@ document.addEventListener('keydown', function(e) {
 
 function activateCheats() {
   document.getElementById("chili").classList.add('electricBugaloo');
+  document.getElementById("chili").style.display = "inline"; 
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
