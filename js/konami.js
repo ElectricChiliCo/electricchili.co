@@ -44,9 +44,9 @@ function activateCheats() {
     
   chili {
     position: fixed;
-    width: 32px;
-    height: 32px;
-    background: url('http://i.imgur.com/SyCqOhA.png');
+    width: 100px;
+    height: 100px;
+    background-image: url('http://i.imgur.com/SyCqOhA.png');
     top: -5%;
     left: -5%;
     z-index: 11200000;
