@@ -37,8 +37,8 @@ document.addEventListener('keydown', function(e) {
 function activateCheats() {
   var chiliDiv = document.createElement("div");
   chiliDiv.id = "chili";
-  chiliDiv.className = "electricBugaloo";
   document.body.appendChild(chiliDiv);
+  chiliDiv.className = "electricBugaloo";
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
