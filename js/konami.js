@@ -38,6 +38,8 @@ function activateCheats() {
   var chiliDiv = document.createElement("div");
   chiliDiv.id = "chili";
   document.body.appendChild(chiliDiv);
+  
+  var x = chiliDiv.clientHeight;
   chiliDiv.className = "electricBugaloo";
   
   var audio = new Audio('audio/pling.mp3');
