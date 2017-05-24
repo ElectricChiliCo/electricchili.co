@@ -30,14 +30,19 @@ document.addEventListener('keydown', function(e) {
     // if the last key is reached, activate cheats
     if (konamiCodePosition == konamiCode.length)
       activateCheats();
+    else if (konamiCodePosition == (konamiCode.length - 1))
+      createDiv();
   } else
     konamiCodePosition = 0;
 });
 
-function activateCheats() {
+function createDiv() {
   var chiliDiv = document.createElement("div");
   chiliDiv.id = "chili";
   document.body.appendChild(chiliDiv);
+}
+
+function activateCheats() {
   chiliDiv.className = "electricBugaloo";
   
   var audio = new Audio('audio/pling.mp3');
