@@ -204,13 +204,10 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
 }
 
 #chili.electricBugaloo {
-    top: 100px;
-    right: 100%;
-    -webkit-transform: rotate(720deg);
-    transform: rotate(720deg);
-    -moz-transform: rotate(720deg);
-    -o-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
+    top: 100%;
+    left: 100%;
+    -webkit-transform: rotate(2000deg);
+    transform: rotate(2000deg);
 }
 
 #chili {
@@ -218,8 +215,7 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
     height: 100px;
     width: 100px;
     position: fixed;
-    top: -5%;
-    left: -5%;
+    z-index: 11200000;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: all 2s linear;
