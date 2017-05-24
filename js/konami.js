@@ -49,5 +49,5 @@ function activateCheats() {
   var audio = new Audio('audio/pling.mp3');
   audio.play();
 
-  //alert("cheats activated");
+  alert("cheats activated");
 }
