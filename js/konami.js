@@ -40,6 +40,7 @@ function activateCheats() {
     left: 100%;
     -webkit-transform: rotate(2000deg);
     transform: rotate(2000deg);
+  };
     
   chili {
     position: fixed;
@@ -52,7 +53,8 @@ function activateCheats() {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: all 2s linear;
-    transition: all 2s linear; 
+    transition: all 2s linear;
+  };
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
