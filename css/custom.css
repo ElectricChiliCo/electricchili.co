@@ -211,7 +211,7 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
 }
 
 #chili {
-    background-image: url("http://i.imgur.com/SyCqOhA.png") !important;
+    background-image: url("http://i.imgur.com/SyCqOhA.png");
     height: 100px;
     width: 100px;
     position: fixed;
