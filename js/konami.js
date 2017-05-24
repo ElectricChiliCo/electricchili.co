@@ -36,25 +36,21 @@ document.addEventListener('keydown', function(e) {
 
 function activateCheats() {
   #chili.electricBugaloo {
-    top: 100%;
-    left: 100%;
-    -webkit-transform: rotate(2000deg);
-    transform: rotate(2000deg);
+    right: 100%;
+    top: 100px;
+    transform: rotate(720deg);
+  }
   };
     
   #chili {
+    background-image: url("http://i.imgur.com/SyCqOhA.png") !important;
+    height: 300px;
     position: fixed;
-    width: 100px;
-    height: 100px;
-    background-image: url('http://i.imgur.com/SyCqOhA.png') !important;
-    top: -5%;
-    left: -5%;
-    z-index: 11200000;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: all 2s linear;
-    transition: all 2s linear;
-  };
+    top: 100px;
+    transition: all 2s linear 0s;
+    width: 300px;
+    z-index: 99999;
+  }
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
