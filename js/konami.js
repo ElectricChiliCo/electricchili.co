@@ -35,17 +35,10 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  var chiliDiv = document.createElement("div");
-  chiliDiv.id = "chili";
-  document.body.appendChild(chiliDiv);
-  
-  var x = chiliDiv.clientHeight;
-  setTimeout(function() {
-    chiliDiv.className = "electricBugaloo";
-  }, 300);
+  document.getElementById("chili").classList.add('electricBugaloo');
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
 
-  //alert("cheats activated");
+  alert("cheats activated");
 }
