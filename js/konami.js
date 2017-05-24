@@ -39,12 +39,11 @@ function activateCheats() {
   chiliDiv.id = "chili";
   document.body.appendChild(chiliDiv);
   
-  var x = chiliDiv.clientHeight;
   setTimeout(function() {
     chiliDiv.className = 'electricBugaloo';
   }, 10);
   
-  window.getComputedStyle(chiliDiv)
+  window.getComputedStyle(chiliDiv).transition;
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
