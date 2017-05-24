@@ -35,22 +35,10 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  #chili.electricBugaloo {
-    right: 100%;
-    top: 100px;
-    transform: rotate(720deg);
-  }
-  };
-    
-  #chili {
-    background-image: url("http://i.imgur.com/SyCqOhA.png") !important;
-    height: 300px;
-    position: fixed;
-    top: 100px;
-    transition: all 2s linear 0s;
-    width: 300px;
-    z-index: 99999;
-  }
+  var chiliDiv = document.createElement("div");
+  chiliDiv.id = "chili";
+  chiliDiv.className = "electricBugaloo";
+  document.body.appendChild(chiliDiv);
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
