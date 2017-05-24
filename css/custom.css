@@ -203,10 +203,6 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
     max-height: 200px;
 }
 
-.flex {
-    display: flex;
-}
-
 .electricBugaloo {
     top: 100%;
     left: 100%;
