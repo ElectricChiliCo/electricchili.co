@@ -42,7 +42,7 @@ function activateCheats() {
   var x = chiliDiv.clientHeight;
   setTimeout(function() {
     chiliDiv.className = "electricBugaloo";
-  }, 100)
+  }, 100);
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
