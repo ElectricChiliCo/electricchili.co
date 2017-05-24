@@ -45,7 +45,7 @@ function activateCheats() {
     position: fixed;
     width: 32px;
     height: 32px;
-    background-image: url(data:image/png;base64,'http://i.imgur.com/SyCqOhA.png');
+    background: url('http://i.imgur.com/SyCqOhA.png');
     top: -5%;
     left: -5%;
     z-index: 11200000;
