@@ -203,7 +203,7 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
     max-height: 200px;
 }
 
-#chili.electricBugaloo {
+.electricBugaloo {
     top: 100%;
     left: 100%;
     -webkit-transform: rotate(2000deg);
