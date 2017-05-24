@@ -38,9 +38,7 @@ function activateCheats() {
   var chiliDiv = document.createElement("div");
   chiliDiv.id = "chili";
   document.body.appendChild(chiliDiv);
-  setTimeout(function () {
-    chiliDiv.className = "electricBugaloo"; 
-  }, 100);
+  chiliDiv.className = "electricBugaloo";
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
