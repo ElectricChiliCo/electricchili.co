@@ -43,7 +43,7 @@ function activateCheats() {
     chiliDiv.className = 'electricBugaloo';
   }, 10);
   
-  window.getComputedStyle(chiliDiv).transition;
+  window.getComputedStyle(chiliDiv);
   
   var audio = new Audio('audio/pling.mp3');
   audio.play();
