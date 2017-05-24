@@ -35,8 +35,25 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('https://hippyseedcompany-6881.kxcdn.com/wp-content/uploads/2014/04/IMG_1927-e1397818850596.jpg')";
-
+  chili.electricBugaloo {
+    top: 100%;
+    left: 100%;
+    -webkit-transform: rotate(2000deg);
+    transform: rotate(2000deg);
+    
+  chili {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    background-image: url(data:image/png;base64,'http://i.imgur.com/SyCqOhA.png');
+    top: -5%;
+    left: -5%;
+    z-index: 11200000;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear; 
+  
   var audio = new Audio('audio/pling.mp3');
   audio.play();
 
