@@ -318,7 +318,7 @@ footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
-  position: relative;
+    position: relative;
   bottom: 0px;
   padding: 5px 0;
   background-color: #233140;
