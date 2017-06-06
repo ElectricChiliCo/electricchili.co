@@ -82,6 +82,10 @@ footer p {
 
 /*}*/
 
+.video-banner {
+    position: absolute;
+}
+
 .all-content {
     position: relative;
 }
