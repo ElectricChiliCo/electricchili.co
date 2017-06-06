@@ -20,9 +20,9 @@ footer p {
 }
 
 .footer-above {
-    position: fixed;
-    bottom: 25px;
-    height: 90px;
+    position: relative;
+    /*bottom: 25px;*/
+    /*height: 90px;*/
     width: 100%;
 }
 
@@ -97,6 +97,19 @@ img.logo {
 
 /*}*/
 
+video {
+    height: 103%;
+    width: 103%;
+}
+
+.video-content {
+    margin: 100px 0 0 0;
+    padding: 0 0 0 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
 .all-content {
     position: relative;
 }
@@ -129,18 +142,11 @@ footer {
 
 /*  ecc tab */
 div.ecc-tab-container {
-    position: fixed;
-    top: 100px;
-    bottom: 105px;
+    position: relative;
     background-color: #ffffff;
     padding: 0 !important;
     border-radius: 4px;
     -moz-border-radius: 4px;
-    /*margin-top: 9%;*/
-    /*margin-left: 3.3%;*/
-    /*margin-right: 30px;*/
-    /*margin-bottom: 1%;*/
-    /*margin: 150px 50px 150px 50px;*/
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);

@@ -1596,23 +1596,23 @@ pre code {
   margin-left: auto;
 }
 @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
+  /*.container {*/
+    /*width: 750px;*/
+  /*}*/
 
   .section-content {
     height: 120%;
   }
 }
 @media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
+  /*.container {*/
+    /*width: 970px;*/
+  /*}*/
 }
 @media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
+  /*.container {*/
+    /*width: 1170px;*/
+  /*}*/
 }
 .container-fluid {
   padding-right: 15px;
@@ -4287,7 +4287,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: fixed;
+  position: relative;
   right: 0;
   left: 0;
   z-index: 1030;

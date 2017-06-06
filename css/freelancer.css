@@ -5,7 +5,6 @@
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
 }
 p {
   font-size: 20px;
@@ -319,7 +318,7 @@ footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
-  position: fixed;
+  position: relative;
   bottom: 0px;
   padding: 5px 0;
   background-color: #233140;

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1285dcb-e8f9-4f6c-ac94-0b258219b7f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ElectricChilico_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/video-banner.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/freelancer.css" afterPath="$PROJECT_DIR$/css/freelancer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/freelancer.less" afterPath="$PROJECT_DIR$/less/freelancer.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,28 +22,28 @@
       <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/freelancer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+            <state relative-caret-position="183">
+              <caret line="320" column="2" lean-forward="false" selection-start-line="320" selection-start-column="2" selection-end-line="320" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="257">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="213" column="30" lean-forward="false" selection-start-line="213" selection-start-column="30" selection-end-line="213" selection-end-column="30" />
+            <state relative-caret-position="341">
+              <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -55,7 +55,7 @@
                 <element signature="n#style#0;n#h2#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#center#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#11183#11189#0" expanded="true" />
+                <element signature="e#11298#11304#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,36 +75,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.f</find>
+      <find>.exx</find>
+      <find>.ex</find>
       <find>.e</find>
-      <find>.ecc-ta</find>
-      <find>.ecc-tab</find>
-      <find>.ecc-tab-</find>
-      <find>.ecc-tab-c</find>
-      <find>.ecc-tab-co</find>
-      <find>.ecc-tab-con</find>
-      <find>.ecc-tab-contiainer</find>
-      <find>.ecc-tab-contiaine</find>
-      <find>.ecc-tab-contiain</find>
-      <find>.ecc-tab-contiai</find>
-      <find>.ecc-tab-contian</find>
-      <find>.ecc-tab-contia</find>
-      <find>.ecc-tab-conti</find>
-      <find>.ecc-tab-cont</find>
-      <find>.ecc-tab-conta</find>
-      <find>.ecc-tab-contai</find>
-      <find>.ecc-tab-contain</find>
-      <find>.ecc-tab-containe</find>
-      <find>.ecc-tab-container</find>
-      <find>.l</find>
-      <find>.list0-gr</find>
-      <find>.list0-g</find>
-      <find>.list0-</find>
-      <find>.list0</find>
-      <find>.list</find>
-      <find>.list-</find>
-      <find>.list-gro</find>
-      <find>.list-group</find>
+      <find>.ecc</find>
+      <find>.fo</find>
+      <find>.footer-abov</find>
+      <find>p.footer-above</find>
+      <find>pos.footer-above</find>
+      <find>posi.footer-above</find>
+      <find>positi.footer-above</find>
+      <find>position.footer-above</find>
+      <find>position:.footer-above</find>
+      <find>position: .footer-above</find>
+      <find>position: f.footer-above</find>
+      <find>position: fi.footer-above</find>
+      <find>position: fix.footer-above</find>
+      <find>position: fixe.footer-above</find>
+      <find>position: fixed.footer-above</find>
+      <find>position: fixed</find>
+      <find>.</find>
+      <find>.foo</find>
+      <find>.foot</find>
+      <find>.footer</find>
+      <find>.footer-</find>
+      <find>.footer-ab</find>
+      <find>.footer-abo</find>
+      <find>navbar-cuys</find>
+      <find>.footer-above</find>
+      <find>w</find>
+      <find>width</find>
     </findStrings>
     <replaceStrings>
       <replace>ecc</replace>
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/js/freelancer.js" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/css/freelancer.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -457,12 +457,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495502621197</updated>
       <workItem from="1495502622374" duration="21813000" />
-      <workItem from="1496713199961" duration="5725000" />
+      <workItem from="1496713199961" duration="7823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27538000" />
+    <option name="totallyTimeSpent" value="29636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1676" height="1027" extended-state="6" />
@@ -600,39 +600,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/freelancer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/freelancer.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="4" column="1350" lean-forward="false" selection-start-line="4" selection-start-column="1350" selection-end-line="4" selection-end-column="1350" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="213" column="30" lean-forward="false" selection-start-line="213" selection-start-column="30" selection-end-line="213" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#center#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#center#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#center#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#center#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#11183#11189#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,11 +616,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="320" column="2" lean-forward="false" selection-start-line="320" selection-start-column="2" selection-end-line="320" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="257">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="64" column="56" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#center#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#center#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#center#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11298#11304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
