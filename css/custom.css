@@ -23,7 +23,7 @@ footer p {
     position: relative;
     /*bottom: 25px;*/
     /*height: 90px;*/
-    /*width: 100%;*/
+    width: 100%;
 }
 
 /*============================================*/
@@ -42,7 +42,7 @@ nav#mainNav {
 }
 
 img.logo {
-    height: 400%;
+    height: 350%;
 }
 
 .header-title {
@@ -104,7 +104,6 @@ video {
 
 .video-content {
     position: relative;
-    margin: 100px 0px 0px 0px;
     height: 100%;
     width: 100%;
 }
@@ -115,7 +114,7 @@ video {
 
 body {
     position: relative;
-    min-height: 750px;
+    /*min-height: 750px;*/
 }
 
 footer {
@@ -198,7 +197,7 @@ div.ecc-tab-menu div.list-group > a.active:after {
     position: absolute;
     left: 100%;
     top: 50%;
-    margin-top: -13px;
+    /*margin-top: -13px;*/
     border-left: 0;
     border-bottom: 13px solid transparent;
     border-top: 13px solid transparent;
@@ -237,4 +236,19 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
     transform: rotate(0deg);
     -webkit-transition: all 2s linear;
     transition: all 2s linear;
+}
+
+.page-scroll {
+    position: relative;
+    top: 500px;
+    z-index: 100;
+}
+
+hr {
+    height: 55px;
+}
+
+div#ecc-main-content {
+    position: relative;
+    bottom: 10px;
 }
