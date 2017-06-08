@@ -1,3 +1,10 @@
+/*Fonts*/
+font-family: 'Poiret One', cursive;
+font-family: 'Monda', sans-serif;
+font-family: 'Bowlby One', cursive;
+font-family: 'Julius Sans One', cursive;
+font-family: 'Unica One', cursive;
+
 /*Contact Form*/
 
 .form-control {
@@ -238,12 +245,6 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
     transition: all 2s linear;
 }
 
-.page-scroll {
-    position: relative;
-    top: 500px;
-    z-index: 100;
-}
-
 hr {
     height: 55px;
 }
@@ -252,3 +253,19 @@ div#ecc-main-content {
     position: relative;
     bottom: 10px;
 }
+
+#call-to-action-btn {
+    display: inline-block;
+    position: relative;
+    top: 400px;
+    z-index: 100;
+    opacity: .8;
+    font-family: 'Unica One';
+
+    font-size: 3vh;
+    height: 100px;
+    /*max-width: 25%;*/
+    text-justify-content: center;
+    word-wrap:break-word;
+}
+
