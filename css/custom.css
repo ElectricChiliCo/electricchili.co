@@ -65,7 +65,7 @@ img.logo {
     border-radius: 2px;
     display: inline-block;
     position: relative;
-    width: 55%;
+    width: 100%;
 }
 
 .card p {
@@ -268,4 +268,3 @@ div#ecc-main-content {
     text-justify-content: center;
     word-wrap:break-word;
 }
-
