@@ -46,6 +46,11 @@ footer p {
 
 nav#mainNav {
     height: 100px;
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: #4CB1FF;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
 }
 
 img.logo {
@@ -255,16 +260,19 @@ div#ecc-main-content {
 }
 
 #call-to-action-btn {
-    display: inline-block;
-    position: relative;
-    top: 400px;
+    position: absolute;
     z-index: 100;
     opacity: .8;
     font-family: 'Unica One';
-
     font-size: 3vh;
-    height: 100px;
-    /*max-width: 25%;*/
-    text-justify-content: center;
-    word-wrap:break-word;
+    word-wrap: break-word;
+    text-stroke:
+}
+
+#video-and-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
