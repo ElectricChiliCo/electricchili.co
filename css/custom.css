@@ -240,7 +240,7 @@ div.ecc-tab-menu div.list-group > a.active:after {
 }
 
 div.ecc-tab-content {
-    background-color: #ffffff;
+
 }
 
 div.ecc-tab div.ecc-tab-content:not(.active) {
@@ -280,6 +280,14 @@ hr {
 div#ecc-main-content {
     position: relative;
     bottom: 10px;
+}
+
+#bawls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    margin-top: 95px;
 }
 
 #call-to-action-btn {
