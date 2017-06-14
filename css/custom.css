@@ -75,6 +75,7 @@ nav#mainNav {
 
 img.logo {
     max-height: 350%;
+    max-width: 100%;
 }
 
 .header-title {
@@ -247,9 +248,9 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
 }
 
 .ecc-tab-content.active {
-  padding: 40px 0px 30px;
+  padding: 40px 20px 30px;
   margin: 0 auto 26px;
-  max-width: 820px;
+  max-width: 860px;
   text-align: left;
 }
 
