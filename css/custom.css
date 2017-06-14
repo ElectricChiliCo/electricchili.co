@@ -16,10 +16,24 @@ font-family: 'Unica One', cursive;
 }
 
 button.btn.btn-success.btn-lg {
+  font-family: 'Montserrat';
 }
 
 .form-group {
   text-align: center;
+}
+
+p {
+  font-weight: 300;
+  text-transform: none;
+  text-align: left;
+}
+
+.list-item {
+  text-transform: none;
+  text-align: left;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 /*========================================*/
@@ -233,7 +247,9 @@ div.ecc-tab div.ecc-tab-content:not(.active) {
 
 .ecc-tab-content.active {
   padding: 20px;
-  margin-bottom: 26px;
+  margin: 0 auto 26px;
+  max-width: 860px;
+  text-align: left;
 }
 
 .electricBugaloo {
