@@ -19,7 +19,7 @@ window.addEventListener('resize', init);
 
 function init() {
   wWidth = window.innerWidth < 600 ? 600 : window.innerWidth;
-  wHeight = window.innerHeight;
+  wHeight = window.innerHeight < 800 ? 800 : window.innerHeight;
   wArea = wWidth * wHeight;
   wCenter = { x: wWidth / 2, y: wHeight / 2 };
   bSize = wArea / 60000;
