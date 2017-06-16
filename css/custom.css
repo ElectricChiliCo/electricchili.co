@@ -189,6 +189,8 @@ div.ecc-tab-menu {
 
 div.ecc-tab {
   flex-grow: 5;
+  position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -287,7 +289,7 @@ div#ecc-main-content {
     top: 0;
     left: 0;
     z-index: -100;
-    margin-top: 95px;
+    margin-top: -80px;
 }
 
 #call-to-action-btn {
