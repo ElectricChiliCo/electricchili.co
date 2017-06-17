@@ -53,7 +53,7 @@ footer p {
 /*HEADER*/
 
 .navbar-brand {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .list-group {
@@ -65,12 +65,14 @@ footer p {
 }
 
 nav#mainNav {
-    height: 100px;
+    height: 125px;
     position: relative;
     margin-bottom: 0;
     border-bottom-color: #4CB1FF;
     border-bottom-style: solid;
     border-bottom-width: 3px;
+    display: flex;
+    justify-content: center;
 }
 
 img.logo {
@@ -82,8 +84,11 @@ img.logo {
     width: 100%;
 }
 
-.navbar-header.page-scroll {
-    margin: 0 0 0 0;
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -307,4 +312,9 @@ div#ecc-main-content {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+#main-nav-header-text {
+  color: white;
+  margin: auto;
 }
