@@ -81,7 +81,10 @@ nav#mainNav {
 
 img.logo {
     max-height: 350%;
-    max-width: 100%;
+    max-width: 45%;
+    min-width: 20%;
+    position: absolute;
+    top: 15vh;
 }
 
 .header-title {
