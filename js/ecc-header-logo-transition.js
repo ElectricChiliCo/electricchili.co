@@ -34,8 +34,6 @@ $(document).ready(function () {
 
       })
 
-  /
-
 
       // $('.helix').css({
       //   transform: "rotateY(" + ($win.scrollTop() * .5) + "deg)",
