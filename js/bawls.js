@@ -14,8 +14,10 @@ canvas.id = 'bawls';
 animationLocation[0].appendChild(canvas);
 
 window.addEventListener('resize', init);
+document.getElementsByClassName('list-group')[0].addEventListener('click', init);
 
 function init() {
+  var animationLocation = document.getElementsByClassName('ecc-tab');
   wWidth = animationLocation[0].offsetWidth;
   wHeight = animationLocation[0].offsetHeight;
   wArea = wWidth * wHeight;
