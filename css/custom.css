@@ -47,7 +47,6 @@ footer p {
 .footer-above {
     position: relative;
     width: 100%;
-    height: 9vh;
 }
 .footer-below {
     position: relative !important;
@@ -199,7 +198,6 @@ div.ecc-tab-menu {
 div.ecc-tab {
   flex-grow: 5;
   position: relative;
-  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -248,10 +246,6 @@ div.ecc-tab-menu div.list-group > a.active:after {
     border-top: 10px solid #2C3E50;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-}
-
-div.ecc-tab-content {
-    height: 75vh;
 }
 
 .ecc-tab-menu {
@@ -320,4 +314,86 @@ div#ecc-main-content {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+#technology-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-gap: 20px 20px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.grid-item {
+  justify-self: center;
+  align-self: center;
+  height: 100px;
+  width: 100px;
+}
+
+#react-grid-item {
+  background-image: url("grid_icons/react.png");
+}
+
+#java-grid-item {
+  background-image: url("grid_icons/java.png");
+}
+
+#php-grid-item {
+  background-image: url("grid_icons/php.png");
+}
+
+#python-grid-item {
+  background-image: url("grid_icons/python.png");
+}
+
+#ios-grid-item {
+  background-image: url("grid_icons/ios.png");
+}
+
+#android-grid-item {
+  background-image: url("grid_icons/android.png");
+}
+
+#wordpress-grid-item {
+  background-image: url("grid_icons/wordpress.png");
+}
+
+#jquery-grid-item {
+  background-image: url("grid_icons/jquery.png");
+}
+
+#sql-grid-item {
+  background-image: url("grid_icons/sql.png");
+}
+
+#postgres-grid-item {
+  background-image: url("grid_icons/postgres.png");
+}
+
+#node-grid-item {
+  background-image: url("grid_icons/node.png");
+}
+
+#js-grid-item {
+  background-image: url("grid_icons/js.png");
+}
+
+#csharp-grid-item {
+  background-image: url("grid_icons/csharp.png");
+}
+
+#firebase-grid-item {
+  background-image: url("grid_icons/firebase.png");
+}
+
+#ruby-grid-item {
+  background-image: url("grid_icons/ruby.png");
+}
+
+#rails-grid-item {
+  background-image: url("grid_icons/rails.png");
 }
