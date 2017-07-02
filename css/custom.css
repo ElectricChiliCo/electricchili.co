@@ -334,6 +334,15 @@ div#ecc-main-content {
   width: 100px;
 }
 
+@media (max-width: 450px) {
+  .grid-item {
+    padding: 15px;
+    height: 45px;
+    width: 45px;
+    background-size: contain;
+  }
+}
+
 #react-grid-item {
   background-image: url("grid_icons/react.png");
 }
