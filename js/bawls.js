@@ -8,18 +8,16 @@ var bawls = new Array(0);
 
 var canvas = document.createElement('canvas');
 var ctx = canvas.getContext('2d');
-var animations = document.getElementsByClassName('ecc-tab');
+var animationLocation = document.getElementsByClassName('ecc-tab');
 canvas.id = 'bawls';
 
-for (var i = 0; i < animations.length; i++) {
-  animations[i].appendChild(canvas);
-}
+animationLocation[0].appendChild(canvas);
 
 window.addEventListener('resize', init);
 
 function init() {
   wWidth = window.innerWidth < 600 ? 600 : window.innerWidth;
-  wHeight = window.innerHeight < 800 ? 800 : window.innerHeight;
+  wHeight = animationLocation[0].offsetHeight;
   wArea = wWidth * wHeight;
   wCenter = { x: wWidth / 2, y: wHeight / 2 };
   bSize = wArea / 60000;
