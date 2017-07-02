@@ -16,7 +16,7 @@ animationLocation[0].appendChild(canvas);
 window.addEventListener('resize', init);
 
 function init() {
-  wWidth = window.innerWidth < 600 ? 600 : window.innerWidth;
+  wWidth = animationLocation[0].offsetWidth;
   wHeight = animationLocation[0].offsetHeight;
   wArea = wWidth * wHeight;
   wCenter = { x: wWidth / 2, y: wHeight / 2 };
