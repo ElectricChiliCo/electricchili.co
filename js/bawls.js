@@ -8,18 +8,22 @@ var bawls = new Array(0);
 
 var canvas = document.createElement('canvas');
 var ctx = canvas.getContext('2d');
-var animationLocation = document.getElementsByClassName('ecc-tab');
+var animationLocation = getEccTabElement();
 canvas.id = 'bawls';
 
-animationLocation[0].appendChild(canvas);
+animationLocation.appendChild(canvas);
 
 window.addEventListener('resize', init);
 document.getElementsByClassName('list-group')[0].addEventListener('click', init);
 
+function getEccTabElement(){
+  return document.getElementsByClassName('ecc-tab')[0];
+}
+
 function init() {
-  var animationLocation = document.getElementsByClassName('ecc-tab');
-  wWidth = animationLocation[0].offsetWidth;
-  wHeight = animationLocation[0].offsetHeight;
+  var animationLocation = getEccTabElement();
+  wWidth = animationLocation.offsetWidth;
+  wHeight = animationLocation.offsetHeight;
   wArea = wWidth * wHeight;
   wCenter = { x: wWidth / 2, y: wHeight / 2 };
   bSize = wArea / 60000;
