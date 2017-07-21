@@ -57,8 +57,6 @@
   });
 
 
-  console.log("win")
-
 })
 (jQuery); // End of use strict
 
