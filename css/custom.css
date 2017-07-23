@@ -47,20 +47,10 @@ footer p {
 .footer-above {
     position: relative;
     width: 100%;
-    height: 9vh;
-}
-.footer-below {
-    position: relative !important;
-    width: 100%;
-    height: 4vh;
 }
 
 /*============================================*/
 /*HEADER*/
-
-.navbar-brand {
-    margin-bottom: 10%;
-}
 
 .list-group {
     display: flex;
@@ -80,15 +70,11 @@ nav#mainNav {
 }
 
 img.logo {
-    max-height: 350%;
-    max-width: 45%;
+    /*max-height: 50%;*/
+    max-width: 30%;
     min-width: 20%;
     position: absolute;
-    top: 15vh;
-}
-
-.header-title {
-    width: 100%;
+    top: 30%;
 }
 
 .navbar-header.page-scroll {
@@ -109,38 +95,11 @@ img.logo {
     flex-shrink: 1;
 }
 
-.card-1 {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-}
-
-.card-1:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.card-2 {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-.card-3 {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-
-.card-4 {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
 .card-5 {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 video {
-    height: 100%;
-    width: 100%;
-}
-
-.video-content {
-    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -160,13 +119,6 @@ footer {
     max-height: 10px;
 }
 
-.header-title {
-    color: white;
-}
-
-.list-group-item {
-}
-
 /*////////////////////////////////////////////////*/
 
 /*  ecc tab */
@@ -183,6 +135,7 @@ div.ecc-tab-container {
     opacity: 0.97;
     filter: alpha(opacity=97);
     max-height: 100%;
+    min-height: 95vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -199,7 +152,6 @@ div.ecc-tab-menu {
 div.ecc-tab {
   flex-grow: 5;
   position: relative;
-  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -248,10 +200,6 @@ div.ecc-tab-menu div.list-group > a.active:after {
     border-top: 10px solid #2C3E50;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-}
-
-div.ecc-tab-content {
-    height: 75vh;
 }
 
 .ecc-tab-menu {
@@ -307,6 +255,7 @@ div#ecc-main-content {
 
 #call-to-action-btn {
     position: absolute;
+    top: 50%;
     z-index: 100;
     opacity: .8;
     font-family: 'Unica One';
@@ -320,4 +269,95 @@ div#ecc-main-content {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+#technology-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-gap: 20px 20px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.grid-item {
+  justify-self: center;
+  align-self: center;
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 450px) {
+  .grid-item {
+    padding: 15px;
+    height: 45px;
+    width: 45px;
+    background-size: contain;
+  }
+}
+
+#react-grid-item {
+  background-image: url("grid_icons/react.png");
+}
+
+#java-grid-item {
+  background-image: url("grid_icons/java.png");
+}
+
+#php-grid-item {
+  background-image: url("grid_icons/php.png");
+}
+
+#python-grid-item {
+  background-image: url("grid_icons/python.png");
+}
+
+#ios-grid-item {
+  background-image: url("grid_icons/ios.png");
+}
+
+#android-grid-item {
+  background-image: url("grid_icons/android.png");
+}
+
+#wordpress-grid-item {
+  background-image: url("grid_icons/wordpress.png");
+}
+
+#jquery-grid-item {
+  background-image: url("grid_icons/jquery.png");
+}
+
+#sql-grid-item {
+  background-image: url("grid_icons/sql.png");
+}
+
+#postgres-grid-item {
+  background-image: url("grid_icons/postgres.png");
+}
+
+#node-grid-item {
+  background-image: url("grid_icons/node.png");
+}
+
+#js-grid-item {
+  background-image: url("grid_icons/js.png");
+}
+
+#csharp-grid-item {
+  background-image: url("grid_icons/csharp.png");
+}
+
+#firebase-grid-item {
+  background-image: url("grid_icons/firebase.png");
+}
+
+#ruby-grid-item {
+  background-image: url("grid_icons/ruby.png");
+}
+
+#rails-grid-item {
+  background-image: url("grid_icons/rails.png");
 }
