@@ -79,7 +79,7 @@ nav#mainNav {
 }
 
 img.logo {
-    /*max-height: 50%;*/
+    margin: auto;
     max-width: 30%;
     min-width: 20%;
     position: absolute;

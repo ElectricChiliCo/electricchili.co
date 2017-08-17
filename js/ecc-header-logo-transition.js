@@ -25,6 +25,7 @@ $(document).ready(function () {
       $("#call-to-action-btn").css({
         "top": `${callToActionHeightValue(innerHeight, topDistance)}%`,
         "opacity": `${callToActionOpacity(innerHeight, topDistance)}`,
+        "margin": "auto",
       });
     });
   })
