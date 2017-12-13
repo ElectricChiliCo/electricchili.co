@@ -306,8 +306,9 @@ div#ecc-main-content {
     z-index: 100;
     opacity: .8;
     font-family: 'Unica One';
-    font-size: 3vh;
+    font-size: 3vw;
     word-wrap: break-word;
+    margin-left: -9px !important;
 }
 
 #video-and-text {
@@ -407,4 +408,8 @@ div#ecc-main-content {
 
 #rails-grid-item {
   background-image: url("grid_icons/rails.png");
+}
+
+#transition-container {
+    margin-left: -25%;
 }
